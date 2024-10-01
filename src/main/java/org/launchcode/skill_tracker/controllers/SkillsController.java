@@ -9,7 +9,7 @@ public class SkillsController {
 
     @PostMapping("form")
     @ResponseBody
-    public String submit( @RequestParam String name, @RequestParam String language1, @RequestParam String language2, @RequestParam String language3){
+    public String submit(@RequestParam String name, @RequestParam String language1, @RequestParam String language2, @RequestParam String language3){
         return
                 "<html>" +
                         "<body>" +
